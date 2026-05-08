@@ -1,22 +1,22 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-venv/
-.env
+# --- Python ---
+__pycache__/                  # Auto-generated folder with compiled .pyc bytecode files (Python caches these for faster startup)
+*.py[cod]                     # Compiled Python files: .pyc (bytecode), .pyo (optimized), .pyd (Windows DLL)
+*.egg-info/                   # Package metadata folder created when you install a Python package in dev mode
+venv/                         # Virtual environment folder (isolated Python install for this project)
+.env                          # Environment variables file (often contains secrets like API keys, never commit this)
 
-# Node
-node_modules/
-.next/
-dist/
+# --- Node ---
+node_modules/                 # Where npm/yarn installs all JavaScript packages (can be thousands of files, always regenerated from package.json)
+.next/                        # Next.js build output folder (auto-generated when you run 'next build' or 'next dev')
+dist/                         # Common output folder for compiled/bundled frontend code
 
-# IDE
-.vscode/
-.idea/
+# --- IDE ---
+.vscode/                      # VS Code settings specific to your machine (personal preferences, debug configs)
+.idea/                        # JetBrains IDE settings (WebStorm, PyCharm, etc.)
 
-# OS
-.DS_Store
-Thumbs.db
+# --- OS ---
+.DS_Store                     # macOS creates this hidden file in every folder to store folder view preferences
+Thumbs.db                     # Windows creates this to cache image thumbnails in folders
 
-# Docker
-docker-compose.override.yml
+# --- Docker ---
+docker-compose.override.yml   # Local Docker Compose overrides (personal settings that differ from the shared docker-compose.yml)

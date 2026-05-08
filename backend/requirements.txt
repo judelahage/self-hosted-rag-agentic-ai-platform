@@ -1,0 +1,7 @@
+# FastAPI: the web framework for building our API. Handles routing, validation, docs.
+fastapi
+# Uvicorn: the ASGI server that actually runs FastAPI. FastAPI is the app, Uvicorn is the engine that serves it.
+# You start it with: python -m uvicorn app.main:app --reload
+uvicorn
+# Requests: HTTP client library for making API calls FROM our backend TO other services (like Ollama).
+requests
